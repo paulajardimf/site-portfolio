@@ -8,7 +8,7 @@ export const ContainerSobre = styled.main`
 
 export const Titulo = styled.h2`
     font-weight: 700;
-    font-size: 2.625rem;
+    font-size: 1.875rem;
     margin: 5px 0;
 `
 

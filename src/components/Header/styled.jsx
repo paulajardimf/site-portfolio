@@ -32,13 +32,14 @@ export const BotaoLinkInterno = styled.button`
 export const IconeTag = styled.div`
   font-weight: 600;
   font-size: 2.5rem;
-  background-image: -webkit-linear-gradient(180deg, #e70faa, #00c0fd);
+  background-image: -webkit-linear-gradient(180deg, #e70faa, #00c0fd) ;
   background-size: 100%;
   background-repeat: repeat;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-background-clip: text;
   -moz-text-fill-color: transparent;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
 `;
 
 export const ContainerRedes = styled.div`

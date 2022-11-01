@@ -20,4 +20,5 @@ export const DivTexto = styled.div`
   font-weight: 700;
   font-size: 2.625rem;
   width: 350px;
+  color: #373737;
 `;
