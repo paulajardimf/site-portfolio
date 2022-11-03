@@ -1,4 +1,4 @@
-import { ContainerIcones, ContainerTecnologias, Texto, Titulo } from "./styled";
+import { ContainerIcones, ContainerSection, ContainerTecnologias, Texto, Titulo } from "./styled";
 import Html from "./assets/html.svg";
 import Css from "./assets/css.svg";
 import Js from "./assets/js.svg";
@@ -9,10 +9,10 @@ import Github from "./assets/github.svg";
 export default function Tecnologias() {
   return (
     <ContainerTecnologias>
-      <section>
+      <ContainerSection>
         <Titulo>Tecnologias</Titulo>
         <Texto>Tecnologias que estou utilizando em meus projetos.</Texto>
-      </section>
+      </ContainerSection>
       <ContainerIcones>
         <img src={Html} alt="HTML5" />
         <img src={Css} alt="CSS3" />

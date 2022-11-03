@@ -8,6 +8,7 @@ export const ContainerTecnologias = styled.main`
     height: calc(100vh - 20vh);
 `
 
+
 export const Titulo = styled.h2`
     font-weight: 700;
     font-size: 2.625rem;
@@ -23,11 +24,14 @@ export const Texto = styled.p`
 `
 
 export const ContainerIcones = styled.div`
+    height: calc(100vh - 50vh);
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
+    justify-content: space-between;
     justify-items: center;
-    gap: 40px;
-    margin: 20px 0;
+    gap: 50px;
+    margin: 20px 50px;
 `
 
 export const ContainerSection = styled.section`
