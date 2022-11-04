@@ -3,6 +3,7 @@ import Home from "../Home/Home";
 import Sobre from "../Sobre/Sobre";
 import Tecnologias from "../Tecnologias/Tecnologias";
 import Projetos from "../Projetos/Projetos"
+import Contato from "../Contato/Contato";
 import Github from "./assets/github.svg";
 import Linkedin from "./assets/linkedin.svg";
 import {
@@ -41,7 +42,11 @@ export default function Header(props) {
                 Projetos
               </BotaoLinkInterno>
             </li>
-            <li>Contato</li>
+            <li>
+              <BotaoLinkInterno onClick={()=> props.trocaTela(Contato)}>
+              Contato
+              </BotaoLinkInterno>
+            </li>
           </LinksHeader>
         </nav>
         <ContainerRedes>

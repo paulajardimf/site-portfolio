@@ -8,7 +8,7 @@ export const ContainerGlobal = styled.div`
 
 export const ContainerHeader = styled.div`
   display: flex;
-  height: 20vh;
+  height: 150px;
   width: 80vw;
   align-items: center;
   justify-content: space-between;
