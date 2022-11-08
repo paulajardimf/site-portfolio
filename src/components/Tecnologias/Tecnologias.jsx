@@ -1,4 +1,4 @@
-import { ContainerIcones, ContainerSection, ContainerTecnologias, Texto, Titulo } from "./styled";
+import { ContainerIconesUnidades , ContainerIcones, ContainerSection, ContainerTecnologias, Texto, Titulo } from "./styled";
 import Html from "./assets/html.svg";
 import Css from "./assets/css.svg";
 import Js from "./assets/js.svg";
@@ -14,12 +14,30 @@ export default function Tecnologias() {
         <Texto>Tecnologias que estou utilizando em meus projetos.</Texto>
       </ContainerSection>
       <ContainerIcones>
-        <img src={Html} alt="HTML5" />
-        <img src={Css} alt="CSS3" />
-        <img src={Js} alt="Javascript" />
-        <img src={React} alt="React" />
-        <img src={Git} alt="Git" />
-        <img src={Github} alt="Github" />
+        <ContainerIconesUnidades>
+          <p>HTML 5</p>
+          <img src={Html} alt="HTML5" />
+        </ContainerIconesUnidades>
+        <ContainerIconesUnidades>
+          <p>CSS 3</p>
+          <img src={Css} alt="CSS3" />
+        </ContainerIconesUnidades>
+        <ContainerIconesUnidades>
+          <p>JavaCript</p>
+          <img src={Js} alt="Javascript" />
+        </ContainerIconesUnidades>
+        <ContainerIconesUnidades>
+          <p>React</p>
+          <img src={React} alt="React" />
+        </ContainerIconesUnidades>
+        <ContainerIconesUnidades>
+          <p>Git</p>
+          <img src={Git} alt="Git" />
+        </ContainerIconesUnidades>
+        <ContainerIconesUnidades>
+          <p>Github</p>
+          <img src={Github} alt="Github" />
+        </ContainerIconesUnidades>
       </ContainerIcones>
     </ContainerTecnologias>
   );

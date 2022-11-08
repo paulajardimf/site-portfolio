@@ -1,11 +1,11 @@
 import styled from "styled-components";
 
 export const ContainerPai = styled.section`
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+`;
 
 export const ContainerCargo = styled.div`
   display: flex;
@@ -35,8 +35,7 @@ export const Tipo = styled.button`
   font-weight: 600;
   letter-spacing: 0.8px;
   color: white;
-  background: 
-    linear-gradient(45deg, #e70faa, #00c0fd);
+  background: linear-gradient(45deg, #e70faa, #00c0fd);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 100px;
 `;
@@ -47,6 +46,10 @@ export const Info = styled.p`
   font-size: 0.75rem;
   letter-spacing: 1px;
   margin: 0.2rem 0;
+
+  img {
+    margin-right: 5px;
+  }
 `;
 
 export const LinhaHorizontal = styled.div`

@@ -13,6 +13,7 @@ export const DivTexto = styled.div`
   font-weight: 700;
   font-size: 2.625rem;
   color: #373737;
+  letter-spacing: 0.1rem;
 
   div {
     background-image: -webkit-linear-gradient(180deg, #e70faa, #00c0fd);

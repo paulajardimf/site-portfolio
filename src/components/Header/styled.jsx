@@ -26,7 +26,20 @@ export const BotaoLinkInterno = styled.button`
   background-color: white;
   font-size: 1rem;
   font-weight: 200;
+  letter-spacing: 0.1rem;
   cursor: pointer;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+
+  :hover{
+    background-image: -webkit-linear-gradient(180deg, #e70faa, #00c0fd) ;
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+    text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.15);
+  }
 `;
 
 export const IconeTag = styled.div`

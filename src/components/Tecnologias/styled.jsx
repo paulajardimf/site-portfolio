@@ -8,11 +8,11 @@ export const ContainerTecnologias = styled.main`
     height: calc(100vh - 20vh);
 `
 
-
 export const Titulo = styled.h2`
     font-weight: 700;
-    font-size: 2.625rem;
+    font-size: 1.875rem;
     margin: 5px 0;
+    color: #373737;
 `
 
 export const Texto = styled.p`
@@ -21,6 +21,10 @@ export const Texto = styled.p`
     color: #666666;
     width: 80vw;
     margin: 20px 0;
+`
+
+export const ContainerSection = styled.section`
+    margin: 15px 0;
 `
 
 export const ContainerIcones = styled.div`
@@ -34,6 +38,13 @@ export const ContainerIcones = styled.div`
     margin: 20px 50px;
 `
 
-export const ContainerSection = styled.section`
-    margin: 15px 0;
+export const ContainerIconesUnidades = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img{
+        height: 100px;
+    }
 `

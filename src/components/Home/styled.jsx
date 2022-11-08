@@ -9,7 +9,7 @@ export const ContainerHome = styled.div`
 `;
 
 export const FotoPerfil = styled.img`
-  height: 350px;
+  height: 400px;
   background: linear-gradient(#fff, #fff) padding-box,
     linear-gradient(180deg, #e70faa, #00c0fd) border-box;
   border: 10px solid transparent;
@@ -19,6 +19,7 @@ export const FotoPerfil = styled.img`
 export const DivTexto = styled.div`
   font-weight: 700;
   font-size: 2.625rem;
+  letter-spacing: 0.1rem;
   width: 350px;
   color: #373737;
 `;

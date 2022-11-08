@@ -17,4 +17,5 @@ export const Creditos = styled.p`
     font-size: 1rem;
     color: #666666;
     height: 40px;
+    letter-spacing: 0.1rem;
 `
