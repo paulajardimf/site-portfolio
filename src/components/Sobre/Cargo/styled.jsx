@@ -5,6 +5,15 @@ export const ContainerPai = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  .info {
+    display: flex;
+    color: #666666;
+    font-weight: 400;
+    font-size: 1.0rem;
+    width: 80vw;
+    margin: 5px 0;
+  }
 `;
 
 export const ContainerCargo = styled.div`
@@ -46,7 +55,7 @@ export const Info = styled.p`
   font-size: 0.75rem;
   letter-spacing: 1px;
   margin: 0.2rem 0;
-  
+
   img {
     margin-right: 5px;
   }

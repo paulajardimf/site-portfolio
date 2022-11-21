@@ -5,6 +5,15 @@ export const ContainerPai = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  .info {
+    display: flex;
+    color: #666666;
+    font-weight: 400;
+    font-size: 1.0rem;
+    width: 80vw;
+    margin: 5px 0;
+  }
 `;
 
 export const ContainerCargo = styled.div`

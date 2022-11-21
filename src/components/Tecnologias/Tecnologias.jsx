@@ -5,6 +5,7 @@ import Js from "./assets/js.svg";
 import React from "./assets/react.svg";
 import Git from "./assets/git.svg";
 import Github from "./assets/github.svg";
+// import Vite from "./assets/vite.svg";
 
 export default function Tecnologias() {
   return (
@@ -38,6 +39,10 @@ export default function Tecnologias() {
           <p>Github</p>
           <img src={Github} alt="Github" />
         </ContainerIconesUnidades>
+        {/* <ContainerIconesUnidades>
+          <p>Vite</p>
+          <img src={Vite} alt="Vite" />
+        </ContainerIconesUnidades> */}
       </ContainerIcones>
     </ContainerTecnologias>
   );

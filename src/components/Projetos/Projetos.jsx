@@ -8,6 +8,7 @@ import {
 } from "./styled";
 import ImagemProjetoTheSims from "./img/projeto-intro-web.jpg";
 import ImagemProjetoPortfolio from "./img/projeto-portfolio.jpg";
+import imagemProjetoWhatslab from "./img/imagem-projeto-whatslab.png";
 
 export default function Projetos() {
   return (
@@ -31,9 +32,17 @@ export default function Projetos() {
           imagem={ImagemProjetoPortfolio}
           titulo={"Site Portfolio"}
           descricao={"Site com apresentação de portfolio com projetos e currículo."}
-          tecnologias={"ReactJs com styled-components"}
-          linkSite={"#"}
-          linkCodigo={"#"}
+          tecnologias={"ReactJs, styled-components e Vite"}
+          linkSite={"http://site-portifolio-beta.vercel.app/"}
+          linkCodigo={"https://github.com/paulajardimf/site-portifolio"}
+        />
+        <CardProjeto
+          imagem={imagemProjetoWhatslab}
+          titulo={"Whatslab"}
+          descricao={"Página inspirada no whatsapp, com opção de mudar o contato e excluir mensagens com duplo clique."}
+          tecnologias={"ReactJs, styled-components e Vite"}
+          linkSite={"https://whatslab-tan.vercel.app/"}
+          linkCodigo={"https://github.com/paulajardimf/whatslab"}
         />
       </ContainerCard>
     </ContainerProjetos>

@@ -1,7 +1,15 @@
-import { ContainerCargo, ContainerLocal, ContainerPai, Info, LinhaHorizontal, SubTitulo, Tipo } from "./styled";
+import {
+  ContainerCargo,
+  ContainerLocal,
+  ContainerPai,
+  Info,
+  LinhaHorizontal,
+  SubTitulo,
+  Tipo,
+} from "./styled";
 import Icon from "./assets/icon.svg";
 import Pin from "./assets/carbon_location.svg";
-import Calendario from "./assets/calendar_dates.svg"
+import Calendario from "./assets/calendar_dates.svg";
 
 export default function Cargo(props) {
   return (
@@ -22,9 +30,14 @@ export default function Cargo(props) {
               {props.cidade}
             </Info>
           </ContainerLocal>
-          <Info><img src={Calendario} alt="ícone" /> {props.data}</Info>
+          <Info>
+            <img src={Calendario} alt="ícone" /> {props.data}
+          </Info>
         </ContainerCargo>
       </div>
+      <p className="info">
+        {props.info}
+      </p>
       <LinhaHorizontal></LinhaHorizontal>
     </ContainerPai>
   );

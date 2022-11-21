@@ -20,6 +20,9 @@ export default function Cargo(props) {
           <Info><img src={Calendario} alt="ícone" /> {props.data}</Info>
         </ContainerCargo>
       </div>
+      <p className="info">
+        {props.info}
+      </p>
       <LinhaHorizontal></LinhaHorizontal>
     </ContainerPai>
   );
