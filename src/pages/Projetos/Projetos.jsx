@@ -14,6 +14,7 @@ import decodificador from "./img/projeto-decodificador.png";
 import todo from "./img/projeto-todo.png";
 import ecommerce from "./img/projeto-ecommerce.png";
 import pokedex1 from "./img/projeto-pokedex1.0.png";
+import pokedex2 from "./img/projeto-pokedex2.0.png";
 
 export default function Projetos() {
   return (
@@ -25,6 +26,16 @@ export default function Projetos() {
           <Texto>Alguns projetos que desenvolvi:</Texto>
         </ContainerSection>
         <ContainerCard>
+          <CardProjeto
+            imagem={pokedex2}
+            titulo={"Pokedex 2.0"}
+            descricao={
+              "Projeto de uma pokedex, totalmente responsiva, com darkmode e paginação. Com consumo da api pokeapi.co."
+            }
+            tecnologias={"ReactJs, styled-components, Nookies, Axios e NextJs"}
+            linkSite={"https://frontend-test-two-paulajardimf.vercel.app/"}
+            linkCodigo={"https://github.com/paulajardimf/pokedex-2.0"}
+          />
           <CardProjeto
             imagem={pokedex1}
             titulo={"Pokedex 1.0"}
