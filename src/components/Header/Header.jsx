@@ -1,9 +1,9 @@
 import React from "react";
-import Home from "../Home/Home";
-import Sobre from "../Sobre/Sobre";
-import Tecnologias from "../Tecnologias/Tecnologias";
-import Projetos from "../Projetos/Projetos"
-import Contato from "../Contato/Contato";
+import Home from "../../pages/HomePage/Home";
+import Sobre from "../../pages/Sobre/Sobre";
+import Tecnologias from "../../pages/Tecnologias/Tecnologias";
+import Projetos from "../../pages/Projetos/Projetos"
+import Contato from "../../pages/Contato/Contato";
 import Github from "./assets/github.svg";
 import Linkedin from "./assets/linkedin.svg";
 import {
@@ -14,8 +14,11 @@ import {
   BotaoLinkInterno,
   ContainerGlobal,
 } from "./styled";
+import { useNavigate } from "react-router-dom";
+import { goToContatoPage, goToHomePage, goToProjetosPage, goToSobrePage, goToTecnologiasPage } from "../../routes/coordinator";
 
 export default function Header(props) {
+  const navigate = useNavigate();
   return (
     <ContainerGlobal>
       <ContainerHeader>
@@ -23,27 +26,27 @@ export default function Header(props) {
         <nav>
           <LinksHeader>
             <li>
-              <BotaoLinkInterno onClick={() => props.trocaTela(Home)}>
+              <BotaoLinkInterno onClick={() => goToHomePage(navigate)}>
                 Home
               </BotaoLinkInterno>
             </li>
             <li>
-              <BotaoLinkInterno onClick={() => props.trocaTela(Sobre)}>
+              <BotaoLinkInterno onClick={() => goToSobrePage(navigate)}>
                 Sobre
               </BotaoLinkInterno>
             </li>
             <li>
-              <BotaoLinkInterno onClick={() => props.trocaTela(Tecnologias)}>
+              <BotaoLinkInterno onClick={() => goToTecnologiasPage(navigate)}>
                 Tecnologias
               </BotaoLinkInterno>
             </li>
             <li>
-              <BotaoLinkInterno onClick={() => props.trocaTela(Projetos)}>
+              <BotaoLinkInterno onClick={() => goToProjetosPage(navigate)}>
                 Projetos
               </BotaoLinkInterno>
             </li>
             <li>
-              <BotaoLinkInterno onClick={()=> props.trocaTela(Contato)}>
+              <BotaoLinkInterno onClick={()=> goToContatoPage(navigate)}>
               Contato
               </BotaoLinkInterno>
             </li>

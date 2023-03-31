@@ -8,8 +8,8 @@ import {
   TextoProjeto,
   TituloProjeto,
 } from "./styled";
-import Link from "../assets/link-icon.svg";
-import Github from "../assets/github-icon.svg";
+import Link from "./assets/link-icon.svg";
+import Github from "./assets/github-icon.svg";
 
 export default function CardProjeto(props) {
   return (
