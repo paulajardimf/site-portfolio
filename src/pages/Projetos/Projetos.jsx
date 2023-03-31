@@ -15,6 +15,7 @@ import todo from "./img/projeto-todo.png";
 import ecommerce from "./img/projeto-ecommerce.png";
 import pokedex1 from "./img/projeto-pokedex1.0.png";
 import pokedex2 from "./img/projeto-pokedex2.0.png";
+import labeddit from "./img/projeto-labeddit.png";
 
 export default function Projetos() {
   return (
@@ -26,6 +27,16 @@ export default function Projetos() {
           <Texto>Alguns projetos que desenvolvi:</Texto>
         </ContainerSection>
         <ContainerCard>
+          <CardProjeto
+            imagem={labeddit}
+            titulo={"Labeddit"}
+            descricao={
+              "Projeto full stack de uma rede social chamada Labeddit desenvolvida com mobile first."
+            }
+            tecnologias={"ReactJs, styled-components, react-router-dom, Axios e Vite"}
+            linkSite={"https://labeddit-frontend-paulajardimf.vercel.app/"}
+            linkCodigo={"https://github.com/paulajardimf/labeddit-frontend"}
+          />
           <CardProjeto
             imagem={pokedex2}
             titulo={"Pokedex 2.0"}
