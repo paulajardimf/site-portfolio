@@ -5,22 +5,35 @@ export const ContainerPai = styled.section`
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin: 10px 0;
 
   .info {
     display: flex;
     color: #666666;
     font-weight: 400;
     font-size: 1.0rem;
-    width: 80vw;
+    width: 100%;
     margin: 5px 0;
   }
+`;
+
+export const ContainerRow = styled.div`
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+`;
+
+export const ContainerColumn = styled.div`
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 `;
 
 export const ContainerCargo = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 80vw;
+  width: 100%;
 `;
 
 export const ContainerLocal = styled.div`
@@ -31,7 +44,7 @@ export const ContainerLocal = styled.div`
 
 export const SubTitulo = styled.h4`
   color: #666666;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 1.25rem;
   letter-spacing: 1px;
 `;
@@ -62,7 +75,7 @@ export const Info = styled.p`
 `;
 
 export const LinhaHorizontal = styled.div`
-  width: 80vw;
+  width: 100%;
   border: 1px solid #ebeaed;
   margin: 0.625rem 0;
 `;

@@ -22,7 +22,7 @@ export default function Header(props) {
   return (
     <ContainerGlobal>
       <ContainerHeader>
-        <IconeTag>{"</>"}</IconeTag>
+        <IconeTag onClick={()=> goToHomePage(navigate)}>{"</>"}</IconeTag>
         <nav>
           <LinksHeader>
             <li>
