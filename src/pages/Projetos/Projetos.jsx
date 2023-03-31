@@ -13,6 +13,7 @@ import whatslab from "./img/imagem-projeto-whatslab.png";
 import decodificador from "./img/projeto-decodificador.png";
 import todo from "./img/projeto-todo.png";
 import ecommerce from "./img/projeto-ecommerce.png";
+import pokedex1 from "./img/projeto-pokedex1.0.png";
 
 export default function Projetos() {
   return (
@@ -24,6 +25,16 @@ export default function Projetos() {
           <Texto>Alguns projetos que desenvolvi:</Texto>
         </ContainerSection>
         <ContainerCard>
+          <CardProjeto
+            imagem={pokedex1}
+            titulo={"Pokedex 1.0"}
+            descricao={
+              "Projeto de uma pokedex, onde é possível adicionar os pokemons, excluir e ver seus detalhes. Com consumo da api pokeapi.co."
+            }
+            tecnologias={"ReactJs, styled-components, Local Storage, react-router-dom, Axios e Vite"}
+            linkSite={"https://pokedex-paulajardimf.vercel.app/"}
+            linkCodigo={"https://github.com/paulajardimf/pokedex"}
+          />
           <CardProjeto
             imagem={ecommerce}
             titulo={"Ecommerce - Astrodev"}
@@ -38,7 +49,7 @@ export default function Projetos() {
             imagem={portfolio}
             titulo={"Site Portfolio"}
             descricao={
-              "Site com apresentação de portfolio com projetos e currículo."
+              "Site com apresentação de portifólio com projetos e currículo."
             }
             tecnologias={"ReactJs, styled-components e Vite"}
             linkSite={"http://site-portifolio-beta.vercel.app/"}
