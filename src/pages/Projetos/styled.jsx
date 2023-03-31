@@ -9,11 +9,12 @@ export const ContainerProjetos = styled.main`
 export const ContainerSection = styled.section`
     margin: 15px 0;
     margin-bottom: 50px;
+    align-self: flex-start;
 `
 
 export const Titulo = styled.h2`
     font-weight: 700;
-    font-size: 1.875rem;
+    font-size: 2rem;
     margin: 5px 0;
     color: #373737;
 `
@@ -22,15 +23,13 @@ export const Texto = styled.p`
     font-weight: 400;
     font-size: 1.125rem;
     color: #666666;
-    width: 80vw;
     margin: 20px 0;
 `
 
 export const ContainerCard = styled.section`
     display: flex;
     align-self: auto;
-    /* align-items: center; */
     justify-content: space-evenly;
-    gap: 50px;
+    gap: 30px;
     flex-wrap: wrap;
 `

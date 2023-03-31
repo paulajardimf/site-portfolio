@@ -9,4 +9,8 @@ export const GlobalStyle = createGlobalStyle`
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
    }
+   #root{
+      max-width: 1200px;
+      margin: 0 auto;
+   }
 `;

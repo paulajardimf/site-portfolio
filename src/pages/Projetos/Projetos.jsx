@@ -69,9 +69,11 @@ export default function Projetos() {
           />
           <CardProjeto
             imagem={portfolio}
-            titulo={"Site Portfolio"}
+            titulo={"Portifólio"}
             descricao={
-              "Site com apresentação de portifólio com projetos e currículo."
+              "Site pessoal com apresentação de portifólio com projetos e currículo."
+
+
             }
             tecnologias={"ReactJs, styled-components e Vite"}
             linkSite={"http://site-portifolio-beta.vercel.app/"}
