@@ -7,10 +7,11 @@ import {
   Texto,
   Titulo,
 } from "./styled";
-import ImagemProjetoTheSims from "./img/projeto-intro-web.jpg";
-import ImagemProjetoPortfolio from "./img/projeto-portfolio.jpg";
-import imagemProjetoWhatslab from "./img/imagem-projeto-whatslab.png";
+import theSims from "./img/projeto-intro-web.jpg";
+import portfolio from "./img/projeto-portfolio.jpg";
+import whatslab from "./img/imagem-projeto-whatslab.png";
 import decodificador from "./img/projeto-decodificador.png";
+import todo from "./img/projeto-todo.png";
 
 export default function Projetos() {
   return (
@@ -23,7 +24,7 @@ export default function Projetos() {
         </ContainerSection>
         <ContainerCard>
           <CardProjeto
-            imagem={ImagemProjetoPortfolio}
+            imagem={portfolio}
             titulo={"Site Portfolio"}
             descricao={
               "Site com apresentação de portfolio com projetos e currículo."
@@ -33,7 +34,17 @@ export default function Projetos() {
             linkCodigo={"https://github.com/paulajardimf/site-portifolio"}
           />
           <CardProjeto
-            imagem={imagemProjetoWhatslab}
+            imagem={todo}
+            titulo={"To Do"}
+            descricao={
+              "Página onde é possível cadastrar tarefas à fazer, marcar como concluído e apagar a tarefa."
+            }
+            tecnologias={"ReactJs, styled-components, Local Storage e Vite"}
+            linkSite={"https://to-do-paulajardimf.vercel.app/"}
+            linkCodigo={"https://github.com/paulajardimf/to-do"}
+          />
+          <CardProjeto
+            imagem={whatslab}
             titulo={"Whatslab"}
             descricao={
               "Página inspirada no whatsapp, com opção de mudar o contato e excluir mensagens com duplo clique."
@@ -43,7 +54,7 @@ export default function Projetos() {
             linkCodigo={"https://github.com/paulajardimf/whatslab"}
           />
         <CardProjeto
-          imagem={ImagemProjetoTheSims}
+          imagem={theSims}
           titulo={"Expansões The Sims 4"}
           descricao={
             "Site que apresenta uma lista de expansões do jogo The Sims 4 lançadas até 10/2022. Projeto feito com manipulação do DOM."
