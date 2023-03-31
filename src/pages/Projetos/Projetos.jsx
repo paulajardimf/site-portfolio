@@ -12,6 +12,7 @@ import portfolio from "./img/projeto-portfolio.jpg";
 import whatslab from "./img/imagem-projeto-whatslab.png";
 import decodificador from "./img/projeto-decodificador.png";
 import todo from "./img/projeto-todo.png";
+import ecommerce from "./img/projeto-ecommerce.png";
 
 export default function Projetos() {
   return (
@@ -23,6 +24,16 @@ export default function Projetos() {
           <Texto>Alguns projetos que desenvolvi:</Texto>
         </ContainerSection>
         <ContainerCard>
+          <CardProjeto
+            imagem={ecommerce}
+            titulo={"Ecommerce - Astrodev"}
+            descricao={
+              "Projeto de um ecommerce, onde é possível visualizar os produtos, ordenar por preço, buscar por palavras e adicioná-los ao carrinho."
+            }
+            tecnologias={"ReactJs, styled-components, Local Storage, react-router-dom e Vite"}
+            linkSite={"https://projeto-frontendreact.vercel.app/"}
+            linkCodigo={"https://github.com/paulajardimf/astrodev-ecommerce"}
+          />
           <CardProjeto
             imagem={portfolio}
             titulo={"Site Portfolio"}
