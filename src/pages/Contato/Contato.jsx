@@ -1,9 +1,11 @@
-import Footer from "./Footer/Footer";
+import Footer from "../../components/Footer/Footer";
 import { ContainerContato, DivTexto } from "./styled";
+import Header from "../../components/Header/Header";
 
 export default function Contato() {
   return (
-    <div>
+    <>
+     <Header/> 
       <ContainerContato>
         <DivTexto>
           <p>Entre em contato comigo:</p>
@@ -11,6 +13,6 @@ export default function Contato() {
         </DivTexto>
       </ContainerContato>
       <Footer />
-    </div>
+    </>
   );
 }
