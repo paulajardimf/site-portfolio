@@ -12,7 +12,7 @@ export default function Home() {
       <ContainerHome>
         <DivTexto>
           <p>Olá, &#128075; </p>
-          <p>Meu nome é Paula Jardim,</p>
+          <p>Meu nome é Paula Jardim</p>
         </DivTexto>
         <FotoPerfil src={Foto_perfil} alt="foto de perfil" />
       </ContainerHome>
