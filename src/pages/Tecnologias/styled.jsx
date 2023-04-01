@@ -12,7 +12,6 @@ export const Titulo = styled.h2`
   font-size: 2rem;
   margin: 5px 0;
   color: #373737;
-
 `;
 
 export const Texto = styled.p`
@@ -27,6 +26,9 @@ export const ContainerSection = styled.section`
   margin: 15px 0;
   width: 100%;
   @media screen and (min-device-width: 30em) and (max-device-width: 58.5em) {
+    margin-left: 1.25rem;
+  }
+  @media screen and (max-device-width: 30em) {
     margin-left: 1.25rem;
   }
 `;

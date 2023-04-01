@@ -14,6 +14,9 @@ export const DivTexto = styled.div`
   font-size: 2.625rem;
   color: #373737;
   letter-spacing: 0.1rem;
+  @media screen and (max-device-width: 30em) {
+    font-size: 1.5rem;
+  }
 
   div {
     background-image: -webkit-linear-gradient(180deg, #e70faa, #00c0fd);

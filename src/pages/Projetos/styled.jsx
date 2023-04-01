@@ -8,6 +8,9 @@ export const ContainerProjetos = styled.main`
   @media screen and (min-device-width: 30em) and (max-device-width: 58.5em) {
     margin: 0 1.25rem;
   }
+  @media screen and (max-device-width: 30em) {
+    margin: 0 1.25rem;
+  }
 `;
 export const ContainerSection = styled.section`
   margin: 15px 0;

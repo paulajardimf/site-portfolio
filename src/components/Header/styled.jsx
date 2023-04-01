@@ -5,8 +5,11 @@ export const ContainerGlobal = styled.div`
   align-items: center;
   justify-content: center;
   width: 100%;
-  @media screen and (min-device-width: 30em) and (max-device-width: 58.5em) {
+  @media screen and (min-device-width: 30em) and (max-device-width: 58.05em) {
     margin: 0 1.25rem;
+  }
+  @media screen and (max-device-width: 30em) {
+    margin: 0 0.5rem;
   }
 `;
 
@@ -26,6 +29,12 @@ export const LinksHeader = styled.ul`
   @media screen and (min-device-width: 30em) and (max-device-width: 58.5em) {
     gap: 1rem;
     flex-wrap: wrap;
+    justify-content: center;
+  }
+  @media screen and (max-device-width: 30em) {
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
   }
 `;
 
@@ -70,5 +79,10 @@ export const ContainerRedes = styled.div`
   justify-content: space-around;
   @media screen and (min-device-width: 30em) and (max-device-width: 58.5em) {
     flex-direction: column;
+    width: 15%;
+  }
+  @media screen and (max-device-width: 30em) {
+    flex-direction: column;
+    width: 15%;
   }
 `;
