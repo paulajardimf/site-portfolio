@@ -11,7 +11,7 @@ import {
 import { useNavigate } from "react-router-dom";
 import { goToContatoPage, goToHomePage, goToProjetosPage, goToSobrePage, goToTecnologiasPage } from "../../routes/coordinator";
 
-export default function Header(props) {
+export default function Header() {
   const navigate = useNavigate();
   return (
     <ContainerGlobal>
