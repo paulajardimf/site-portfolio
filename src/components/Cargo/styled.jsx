@@ -14,6 +14,7 @@ export const ContainerPai = styled.section`
     font-size: 1rem;
     width: 100%;
     margin: 5px 0;
+    text-align: justify;
   }
 `;
 
