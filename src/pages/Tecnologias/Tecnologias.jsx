@@ -30,7 +30,7 @@ export default function Tecnologias() {
       <ContainerTecnologias>
         <ContainerSection>
           <Titulo>Tecnologias</Titulo>
-          <Texto>Tecnologias utilizo em meus projetos.</Texto>
+          <Texto>Tecnologias que utilizo em meus projetos.</Texto>
         </ContainerSection>
         <ContainerIcones>
           <ContainerIconesUnidades>
