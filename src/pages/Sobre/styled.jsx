@@ -8,6 +8,10 @@ export const ContainerSobre = styled.main`
   .gif {
     width: 28rem;
     height: 28rem;
+    @media screen and (max-device-width: 30em) {
+      width: 22rem;
+      height: 22rem;
+    }
   }
 `;
 
@@ -17,11 +21,9 @@ export const ContainerRow = styled.div`
   align-items: center;
   @media screen and (min-device-width: 30em) and (max-device-width: 58.05em) {
     flex-direction: column;
-    align-items: center;
   }
   @media screen and (max-device-width: 30em) {
     flex-direction: column;
-    align-items: center;
   }
 `;
 
@@ -33,7 +35,7 @@ export const ContainerSection = styled.section`
     margin: 0 20px;
   }
   @media screen and (max-device-width: 30em) {
-    width: 75%;
+    width: 80%;
   }
 `;
 

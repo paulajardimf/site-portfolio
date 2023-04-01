@@ -31,12 +31,14 @@ export const TituloProjeto = styled.h3`
 export const TextoProjeto = styled.p`
   font-weight: 300;
   font-size: 1.1rem;
+  text-align: justify;
 `;
 
 export const Tecnologias = styled.p`
   font-weight: 400;
   font-size: 1rem;
   color: #373737;
+  text-align: justify;
 `;
 
 export const LinhaLinks = styled.div`
