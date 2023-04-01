@@ -87,12 +87,6 @@ export default function Sobre() {
               "Bolsista em projeto de iniciação científica, 06/2020 - 12/2020. Bolsista em projeto de extensão, 06/2019 - 12/2020"
             }
           />
-          <Educacao
-            curso={"Técnico em Contabilidade"}
-            tipo={"Técnico"}
-            instituicao={"Instituto Isabel de Espanha"}
-            data={"2011 - 2012"}
-          />
         </ContainerSection>
       </ContainerSobre>
     </>

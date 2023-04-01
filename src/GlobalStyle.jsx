@@ -10,7 +10,7 @@ export const GlobalStyle = createGlobalStyle`
     font-family: 'Poppins', sans-serif;
    }
    #root{
-      max-width: 1200px;
+      max-width: 58em;
       margin: 0 auto;
    }
 `;

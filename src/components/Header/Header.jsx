@@ -1,9 +1,3 @@
-import React from "react";
-import Home from "../../pages/HomePage/Home";
-import Sobre from "../../pages/Sobre/Sobre";
-import Tecnologias from "../../pages/Tecnologias/Tecnologias";
-import Projetos from "../../pages/Projetos/Projetos"
-import Contato from "../../pages/Contato/Contato";
 import Github from "./assets/github.svg";
 import Linkedin from "./assets/linkedin.svg";
 import {

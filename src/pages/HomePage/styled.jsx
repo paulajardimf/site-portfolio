@@ -6,6 +6,10 @@ export const ContainerHome = styled.div`
   justify-content: space-between;
   width: 100%;
   height: calc(100vh - 20vh);
+  @media screen and (min-device-width: 30em) and (max-device-width: 58.5em) {
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
 `;
 
 export const FotoPerfil = styled.img`
@@ -22,4 +26,7 @@ export const DivTexto = styled.div`
   letter-spacing: 0.1rem;
   width: 350px;
   color: #373737;
+  @media screen and (min-device-width: 30em) and (max-device-width: 58.5em) {
+    text-align: center;
+  }
 `;

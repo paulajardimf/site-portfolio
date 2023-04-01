@@ -5,11 +5,14 @@ export const ContainerGlobal = styled.div`
   align-items: center;
   justify-content: center;
   width: 100%;
+  @media screen and (min-device-width: 30em) and (max-device-width: 58.5em) {
+    margin: 0 1.25rem;
+  }
 `;
 
 export const ContainerHeader = styled.div`
   display: flex;
-  height: 150px;
+  height: 9rem;
   width: 100%;
   align-items: center;
   justify-content: space-between;
@@ -18,8 +21,12 @@ export const ContainerHeader = styled.div`
 
 export const LinksHeader = styled.ul`
   display: flex;
-  gap: 2rem;
+  gap: 2.5rem;
   list-style: none;
+  @media screen and (min-device-width: 30em) and (max-device-width: 58.5em) {
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
 `;
 
 export const BotaoLinkInterno = styled.button`
@@ -45,7 +52,7 @@ export const BotaoLinkInterno = styled.button`
 
 export const IconeTag = styled.div`
   font-weight: 600;
-  font-size: 2.5rem;
+  font-size: 3rem;
   background-image: -webkit-linear-gradient(180deg, #e70faa, #00c0fd);
   background-size: 100%;
   background-repeat: repeat;
@@ -59,5 +66,9 @@ export const IconeTag = styled.div`
 
 export const ContainerRedes = styled.div`
   display: flex;
-  gap: 0.5vw;
+  width: 10%;
+  justify-content: space-around;
+  @media screen and (min-device-width: 30em) and (max-device-width: 58.5em) {
+    flex-direction: column;
+  }
 `;

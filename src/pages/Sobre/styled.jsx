@@ -13,12 +13,19 @@ export const ContainerSobre = styled.main`
 export const ContainerRow = styled.div`
   display: flex;
   flex-direction: row;
+  @media screen and (min-device-width: 30em) and (max-device-width: 58.5em) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 export const ContainerSection = styled.section`
   display: flex;
   flex-direction: column;
   margin: 15px 0;
+  @media screen and (min-device-width: 30em) and (max-device-width: 58.5em) {
+    margin: 0 20px;
+  }
 `;
 
 export const Titulo = styled.h2`
